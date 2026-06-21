@@ -1,0 +1,16 @@
+Package: VisionSimR
+Title: Vision Impairment Simulator for Education and Accessibility
+Version: 0.0.1
+Authors@R: 
+    person("Dhruv", "Paliwal", , "dhruvp24@iitk.ac.in", role = c("aut", "cre"))
+Description: The package will take an image and simulates how it appears to a person with a specific eye condition - myopia, hyperopia, astigmatism, presbyopia, or colour blindness. Useful for optometry education, accessibility testing, and helping designers understand how their work looks to people with different vision impairments.
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: imager, graphics, tools
+Suggests: shiny, bslib, bsicons, shinycssloaders
+NeedsCompilation: no
+Packaged: 2026-03-26 16:36:53 UTC; dhruv
+Author: Dhruv Paliwal [aut, cre]
+Maintainer: Dhruv Paliwal <dhruvp24@iitk.ac.in>
